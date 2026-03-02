@@ -1,0 +1,7 @@
+1. Make a basic website layout
+
+2. put source files in repo
+
+2. write up something more on the Project README.md to describe the project, and documents where you are finding your source texts.
+
+3. try making some sort of ixml and xslt
