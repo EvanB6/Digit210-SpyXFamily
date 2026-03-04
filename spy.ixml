@@ -1,0 +1,15 @@
+xml: 
+header: 
+Label: ["A"-"z"]+, "."?.
+-NewLine: #d?, #a.
+-tab: [#9].
+
+episode get from line 1
+title line 4
+character list: line 7
+header:
+speaker:
+scene: []
+dialogue
+actions: []
+thoughts: uses ()
