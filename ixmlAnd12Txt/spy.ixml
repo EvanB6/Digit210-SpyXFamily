@@ -1,11 +1,12 @@
 xml: dialogue.
 
-dialogue: (line | -newLine)+.
-
+dialogue: (line | narration | -newLine)+.
 -newLine: #d?, #a.
 -tab: [#9].
 
 line: name, " ", speech, -newLine.
-name: ["A"-"z"]+, ":".
-speech: (["A"-"z"] | " " | #27 | "," | "!")+, ["!" | "." | "?"]*.
+narration: text, -newLine.
+text: ["A"-"z"]+, [" " | "." | "," | "!" | "?"]+.
+name: ["A"-"z" | " " | "."]+, ":".
+speech: (["A"-"z"] | " " | #27 | "," | "!" | "-" | "*" | "." | "?" | "—" | ":" | '"')+, ["!" | "." | "?"]*.
 
