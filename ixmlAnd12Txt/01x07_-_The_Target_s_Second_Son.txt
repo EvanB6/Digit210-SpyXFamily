@@ -710,7 +710,7 @@ Sign: "But then John reflected upon his actions"
 
 
 
-Sign:"and thought, 'Sometimes, it's just better to admit you're wrong and get along with others.'"
+Sign: "and thought, 'Sometimes, it's just better to admit you're wrong and get along with others.'"
 
 
 
@@ -1058,7 +1058,7 @@ Damian: Shut up!
 
 
 
-Sign:Relationship with Damian: 
+Sign: Relationship with Damian: 
 
 
 

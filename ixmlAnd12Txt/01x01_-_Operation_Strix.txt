@@ -310,7 +310,7 @@ Twilight: for the sake of a better world.
 
 
 
-sign___OPERATION_STRIX,Sign: {\pos(,)\fad(,)}OPERATION {\fs}STRIX
+Sign: OPERATION STRIX
 
 
 
@@ -906,7 +906,7 @@ Loid: "Children are not very good at putting how they're feeling into words,
 
 
 
-sign___CHILDREARING,Sign: {\pos(,)}CHILDREARING
+sign___CHILDREARING,Sign: CHILDREARING
 
 
 
@@ -914,11 +914,11 @@ Loid: so try to understand them more."So no interrogating them, then?
 
 
 
-sign___CHILDREARING,Sign: {\c&Hf&\fs\c&HA&\an}CHILDCARE
+sign___CHILDREARING,Sign: CHILDCARE
 
 
 
-sign___CHILDREARING,Sign: {\an\bord}CHILDREARING
+sign___CHILDREARING,Sign: CHILDREARING
 
 
 

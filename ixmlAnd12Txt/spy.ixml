@@ -1,12 +1,10 @@
-xml: dialogue.
-
-dialogue: (line | narration | -newLine)+.
--newLine: #d?, #a.
--tab: [#9].
-
-line: name, " ", speech, -newLine.
-narration: text, -newLine.
-text: ["A"-"z"]+, [" " | "." | "," | "!" | "?"]+.
-name: ["A"-"z" | " " | "."]+, ":".
-speech: (["A"-"z"] | " " | #27 | "," | "!" | "-" | "*" | "." | "?" | "—" | ":" | '"')+, ["!" | "." | "?"]*.
-
+xml: (dialogue | narration)++newLine.
+dialogue: name, -" ", speech.
+-newLine: (-#d | -#a)+.
+-tab: #9.
+narration: (["A"-"z" | " " | ".,!?-''-—"| '"'] | angle | marker)+.
+name: (["A"-"z" | " " | "'();,&_"] | angle)+, -":".
+speech: (["A"-"z" | "é" | " " | "0"-"9" | #27 | ",!-*.?—'':+()•" | '"'] | italic | angle | marker)+, ["!.?,"]?.
+-italic: -"{/i}".
+-marker: -"{\pos(,)\fad(,)}" | -"{\fs}" | -"{\pos(,)}".
+-angle: -["<>"], + '"'.
