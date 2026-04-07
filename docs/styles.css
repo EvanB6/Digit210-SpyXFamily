@@ -1,47 +1,47 @@
 body {
-  margin: 0;
-  height: 100vh;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-  background: 
-    linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("backgroundimage.jpeg") no-repeat center center/cover;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
+url("backgroundimage.jpeg") no-repeat center center/cover;
 }
 
 .content {
-  padding: 50px;
-  background-color: rgba(255, 255, 255, 0.88);
-  border-radius: 16px;
-  max-width: 650px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.88);
+    border-radius: 16px;
+    max-width: 650px;
 }
 
 h1 {
-  color: #0f4f4f; /* Dark teal */
-  font-size: 3rem;
-  margin-bottom: 15px;
+    color: #0f4f4f; /* Dark teal */
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 p {
-  color: #e8b4c7; /* Soft neutral pink */
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+    color: #ff8fab; /* pink */
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 28px;
-  background-color: #0f4f4f;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: 0.3s ease;
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #0f4f4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #d99ab3; /* slightly deeper blush */
+    background-color: #d99ab3; /* slightly deeper blush */
 }
