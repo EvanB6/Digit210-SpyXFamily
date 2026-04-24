@@ -55,6 +55,7 @@ h1 {
     color: #0f4f4f; /* Dark teal */
     font-size: 3rem;
     margin-bottom: 15px;
+   text-align: center; 
 }
 
 p {
@@ -81,3 +82,22 @@ p {
       display: block;
       margin: 0 auto;
     }
+    
+    .character {
+  position: relative;
+  color: purple;
+  cursor: pointer;
+}
+
+.character img {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.character:hover img {
+  display: block;
+}
