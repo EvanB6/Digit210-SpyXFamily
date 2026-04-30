@@ -50,6 +50,7 @@ nav a{
 
   background-attachment: fixed;
   min-height: 100vh;
+  height: 100%;
 
   margin: 0;
   padding: 120px 20px 20px;
@@ -62,7 +63,11 @@ nav a{
   box-sizing: border-box;
   
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 h1 {
     color: #0f4f4f; /* Dark teal */
     font-size: 3rem;
@@ -110,7 +115,22 @@ p {
   border-radius: 10px;
 }
 
-.character:hover img {
+.character:hover img { 
   display: block;
 }
 
+iframe {
+  width: 100%;
+  flex: 1;               /* ← grows to fill remaining space in flex column */
+  min-height: 600px;     /* ← fallback minimum */
+  border: none;
+}
+
+.figure.char{
+    padding: 20px;
+  background-color:black;
+  border-radius: 16px;
+  width: 80%;
+  height: 80%;
+    
+}
