@@ -139,3 +139,25 @@ iframe {
   height: 80%;
     
 }
+
+.license-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35em;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.license-line img {
+  width: 1em;
+  height: 1em;
+  margin-left: 0;
+  vertical-align: middle;
+}
+.license-line {
+  background: #111;
+  color: white;
+  padding: 6px;
+}
